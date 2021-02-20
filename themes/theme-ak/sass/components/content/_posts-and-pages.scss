@@ -11,10 +11,20 @@
 	display: none;
 }
 
+.entry-header{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 2em;
+	color: rgb(8, 8, 93);
+	text-decoration: underline dotted 10px;
+}
+
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: 5em 0 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	box-shadow: black 2px 2px 50px;
 }
 
 .page-links {

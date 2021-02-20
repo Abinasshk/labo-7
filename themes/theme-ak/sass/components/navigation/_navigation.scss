@@ -8,12 +8,12 @@
 		margin: 0;
 		padding-left: 0;
 		background-color: #003;
+		position: absolute;
 		width: 100%;
+		z-index: 99;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
-			position: absolute;
 			top: 100%;
 			left: -999em;
 			z-index: 99999;
@@ -73,12 +73,13 @@
 }
 
 /*------------------------------------------------------
-Version Tablet
+Boutton Burger
 ------------------------------------------------------*/
 .menu-toggle {
 	padding: 0rem;
 	border: 0;
 	margin-left: 3rem;
+	z-index: 99;
 }
 
 
@@ -94,7 +95,7 @@ Version Tablet
 }
 
 .menu-toggle:active {
-    transform: scale(0.99);
+    transform: scale(1.2);
 }
 .main-navigation.toggled .menu-toggle 
 {
