@@ -1,4 +1,4 @@
-$color__background-body: #fff;
+$color__background-body: rgb(250, 199, 199);
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
@@ -12,6 +12,16 @@ $color__link: #4169e1; //royalblue
 $color__link-visited: #800080; //purple
 $color__link-hover: #191970; //midnightblue
 $color__text-main: #404040;
+
+$color__linkmenu: #ffffff; //royalblue
+$color__linkmenu-visited: #f58b8b; //purple
+$color__linkmenu-hover: #ceced1; //midnightblue
+
+$color__linktitle: #ffffff;
+$color__linktitle-visited: #770606; //purple
+$color__linktitle-hover: #e06363; //midnightblue
+
+
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;

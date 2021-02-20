@@ -642,6 +642,7 @@ textarea {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  background-color: #003;
 }
 
 .main-navigation ul ul {
@@ -689,6 +690,9 @@ textarea {
   display: block;
 }
 
+/*-------------------------------------------
+Version Tablet
+-----------------------------------------*/
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none;
@@ -697,6 +701,10 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 2rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 

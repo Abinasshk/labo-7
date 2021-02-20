@@ -13,6 +13,7 @@
 	}
 
 	const button = siteNavigation.getElementsByTagName( 'button' )[ 0 ];
+	
 
 	// Return early if the button don't exist.
 	if ( 'undefined' === typeof button ) {
@@ -32,6 +33,7 @@
 	}
 
 	// Toggle the .toggled class and the aria-expanded value each time the button is clicked.
+	
 	button.addEventListener( 'click', function() {
 		siteNavigation.classList.toggle( 'toggled' );
 

@@ -9,3 +9,20 @@
 			"footer";
 	}
 }
+
+/*
+	#page - .site
+		#masthead - .site-header
+			.site-branding
+				.site-title
+				.site-description
+			#site-navigation - .main-navigation
+		#primary - .site-main
+		#secondary - widget-area
+		#colophone - .site-footer
+
+*/
+
+.site-branding, #primary, #colophone {
+	margin-left: 3rem;
+}

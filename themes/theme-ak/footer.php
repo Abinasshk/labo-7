@@ -13,10 +13,10 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'theme-ak' ) ); ?>">
+			<a href="<?php echo esc_url( __( 'https://cmaisonneuve.qc.ca/', 'Collège de Maisonneuve' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'theme-ak' ), 'WordPress' );
+				//printf( esc_html__( 'Proudly powered by %s', 'theme-ak' ), 'WordPress' );
 				?>
 			</a>
 			<span class="sep"> | </span>
