@@ -73,6 +73,7 @@ Listes des blocs de cours par typ_de_cours
         justify-content: space-between;
         align-items: center;
         border: 3px solid black ;
+        box-shadow: 10px 10px 10px black;
         width: 90%;
         margin: 1%;
         p{
@@ -83,7 +84,7 @@ Listes des blocs de cours par typ_de_cours
         }
         a{
             font-size: 2rem;
-            color: yellow;
+            color:  rgb(238, 144, 144);
             text-shadow: 3px 3px black;
             font-weight: bold;
             text-decoration: none;
