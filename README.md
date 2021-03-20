@@ -1,3 +1,3 @@
 # labo4
-https://github.com/Abinasshk/labo4
-https://abinasshk.github.io/labo4/index.html
+https://github.com/Abinasshk/TP1
+https://abinasshk.github.io/TP1/index.html
