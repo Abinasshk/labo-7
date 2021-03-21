@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: theme-ak
 Theme URI: http://underscores.me/
@@ -786,11 +787,12 @@ Bouton burger
   transform: scale(0.99);
 }
 
-/*
-.main-navigation.toggled .menu-toggle{
-	transform : rotate(90deg);
+.main-navigation.toggled .menu-toggle {
+  transform: rotate(90deg);
+  transition: .5s;
+  color: red;
 }
-*/
+
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
@@ -1080,7 +1082,7 @@ menu tablet
 --------------------------------------------- */
 body.home {
   background-color: fff;
-  height: 100vh;
+  height: 500vh;
   width: 100vw;
 }
 
@@ -1093,7 +1095,7 @@ body.home::after {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 200%;
+  height: 720%;
   top: 0;
   bottom: 0;
   left: 0;
@@ -1137,6 +1139,104 @@ body.home::after {
   display: block;
   margin-right: 0;
   border: solid black 5px;
+}
+
+/*-------------------------------------------------------------------
+Listes des blocs de cours par type_de_cours
+-------------------------------------------------------------------*/
+h1 {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 6rem;
+  margin-top: 1%;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+.home .cours {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .cours section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*@include desktop{
+        width: 29%;
+        margin: 1%;
+
+
+    }
+    */
+}
+
+.home .cours section article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  box-shadow: 10px 10px 10px black;
+  width: 90%;
+  margin: 1%;
+}
+
+.home .cours section article p {
+  margin: .4rem;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.home .cours section article a {
+  font-size: 2rem;
+  color: #ee9090;
+  text-shadow: 3px 3px black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .home .cours section {
+    /*------------------------------------------
+        J'ai essayer de l'adapter à la version téléphone, mais eu un problème
+        --------------------------------------------*/
+    /* @media screen and (min-width: 37.5em){
+            .home .cours {
+             display: flex;
+             flex-direction: column;
+                     
+                }
+            section{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 2rem;
+            
+    
+                }
+                
+            article{   
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            border: 3px solid black ;
+            box-shadow: 10px 10px 10px black;
+            width: 30%;
+            margin: 1%;
+                }
+        */
+  }
+  .home .cours section article {
+    width: 45%;
+    margin: 1%;
+  }
 }
 
 /* Local carrousel
