@@ -1151,6 +1151,7 @@ h1 {
 
 h2 {
   font-size: 6rem;
+  margin-top: 1%;
   color: white;
   -webkit-text-stroke: 2px black;
 }
