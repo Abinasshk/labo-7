@@ -9,6 +9,26 @@
 
 get_header();
 ?>
+<main id ="primary" class ="site-main" >
+<section class="carrousel_2">
+	<article class="slide_conteneur">
+		<div class = "slide">
+		<img width="150" height="84" src="http://localhost/4W4/wp-content/uploads/2021/03/maxresdefault.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+			<div class="slide_info">
+				<p> 582-3W3Web - 90h </p>
+				<a href="http://localhost/4W4/582-3w3-creation-de-sites-web-dynamiques-90h/">Création de sites Web dynamiques</a>
+				<p> Session : 3</p>
+			</div>
+		</div>
+	</article>						
+</section>
+<!---
+<section class="ctrl-carrousel">
+	<input class="rad-carrousel" type="radio" name="rad-carrousel">
+	<input class="rad-carrousel" name="rad-carrousel">
+	<input class="rad-carrousel" name="rad-carrousel">
+-->	
+
 /////////////////////////////////////////////FRONT-PAGE.php
 	<main id="primary" class="site-main">
 
